@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48sp"
+        android:layout_marginTop="480sp"
+        android:layout_marginRight="48sp"
+        android:fontFamily="@font/kulim_park_semibold"
+        android:gravity="center_horizontal"
+        android:text="@string/MainScreen"
+        android:textAlignment="center"
+        android:textColor="@color/PureDark"
+        android:textSize="32sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="600sp"
+        android:layout_marginRight="40sp"
+        android:background="#4548ed"
+        android:gravity="center"
+
+        android:orientation="horizontal"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="116sp"
+        android:layout_marginTop="612sp"
+        android:layout_marginRight="106sp"
+        android:fontFamily="@font/kulim_park_semibold"
+        android:lineSpacingExtra="4sp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:text="Создать аккаунт" />
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="48sp"
+        android:layout_marginTop="668sp"
+        android:layout_marginRight="48sp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="168sp"
+        android:layout_marginTop="680sp"
+        android:layout_marginRight="162sp"
+        android:fontFamily="@font/kulim_park_semibold"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="4sp"
+        android:textColor="@color/Blue"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:text="Войти" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="412sp"
+        android:layout_marginTop="70sp"
+        app:srcCompat="@drawable/MainScreenImage" />
+</RelativeLayout>
