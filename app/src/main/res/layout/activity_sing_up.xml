@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="310dp"
+        android:layout_height="17dp"
+        android:text="Логин пользователя"
+        android:fontFamily="@font/inter_medium"
+        android:textSize="14sp"
+        android:layout_marginTop="420sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:textColor="@color/Grey"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:layout_width="310sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="442sp"
+        android:background="@drawable/edittextstyle"
+        android:fontFamily="@font/inter"
+        android:hint="Введите логин"
+        android:padding="10sp"
+        android:textColorHint="#667085"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="20dp"
+        android:text="Пароль"
+        android:fontFamily="@font/inter_medium"
+        android:textSize="14sp"
+        android:layout_marginTop="504sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:textColor="@color/Grey"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:layout_width="310sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="528sp"
+        android:background="@drawable/edittextstyle"
+        android:fontFamily="@font/inter"
+        android:hint="Введите пароль"
+        android:padding="10sp"
+        android:textColorHint="#667085"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ButtonVoitiFromAut"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="596sp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/inset"
+        android:gravity="center"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="4dp"
+        android:fontFamily="@font/inter_medium"
+        android:lineSpacingExtra="4sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Войти"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ButtonRecover"
+        android:layout_width="146dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="186sp"
+        android:layout_marginTop="672sp"
+        android:background="#ffffffff"
+        android:fontFamily="@font/inter_medium"
+        android:lineSpacingExtra="16sp"
+        android:paddingHorizontal="24dp"
+        android:text="Восстановить"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/Blue"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:layout_width="114sp"
+        android:layout_height="20dp"
+        android:text="Забыли пароль?"
+        android:fontFamily="@font/inter_medium"
+        android:textSize="14sp"
+        android:layout_marginTop="672sp"
+        android:layout_marginLeft="68sp"
+        android:textColor="#6C6B72"
+        android:gravity="top"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="362sp"
+        android:layout_marginTop="48sp"
+        app:srcCompat="@drawable/autscreen" />
+
+</RelativeLayout>

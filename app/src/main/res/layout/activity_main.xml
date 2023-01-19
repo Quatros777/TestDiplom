@@ -12,9 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="48sp"
-        android:layout_marginTop="480sp"
+        android:layout_marginTop="460dp"
         android:layout_marginRight="48sp"
-        android:fontFamily="@font/kulim_park_semibold"
+        android:fontFamily="@font/inter_medium"
         android:gravity="center_horizontal"
         android:text="@string/MainScreen"
         android:textAlignment="center"
@@ -22,61 +22,49 @@
         android:textSize="32sp"
         android:textStyle="normal" />
 
-    <LinearLayout
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ButtonCreateAcc"
         android:layout_width="310dp"
         android:layout_height="48dp"
         android:layout_marginLeft="40sp"
-        android:layout_marginTop="600sp"
+        android:layout_marginTop="580sp"
         android:layout_marginRight="40sp"
-        android:background="#4548ed"
+        android:background="@drawable/inset"
         android:gravity="center"
-
-        android:orientation="horizontal"
         android:paddingHorizontal="24dp"
-        android:paddingVertical="12dp"></LinearLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="116sp"
-        android:layout_marginTop="612sp"
-        android:layout_marginRight="106sp"
-        android:fontFamily="@font/kulim_park_semibold"
+        android:paddingVertical="4dp"
+        android:fontFamily="@font/inter_medium"
         android:lineSpacingExtra="4sp"
         android:textColor="#ffffff"
+        android:textAllCaps="false"
         android:textSize="20sp"
-        android:textStyle="normal"
-        tools:text="Создать аккаунт" />
+        android:text="Создать аккуант"/>
 
-    <LinearLayout
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ButtonVoiti"
         android:layout_width="310dp"
         android:layout_height="48dp"
         android:layout_marginLeft="48sp"
-        android:layout_marginTop="668sp"
+        android:layout_marginTop="648sp"
         android:layout_marginRight="48sp"
+        android:fontFamily="@font/inter_medium"
+        android:textAllCaps="false"
         android:gravity="center"
-        android:orientation="horizontal"
-        android:paddingHorizontal="24dp"
-        android:paddingVertical="12dp"></LinearLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="168sp"
-        android:layout_marginTop="680sp"
-        android:layout_marginRight="162sp"
-        android:fontFamily="@font/kulim_park_semibold"
-        android:gravity="center_horizontal"
-        android:lineSpacingExtra="4sp"
+        android:background="#FFFFFFFF"
         android:textColor="@color/Blue"
         android:textSize="20sp"
-        android:textStyle="normal"
-        tools:text="Войти" />
+        android:orientation="horizontal"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="6dp"
+        android:text="Войти"/>
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="412sp"
-        android:layout_marginTop="70sp"
-        app:srcCompat="@drawable/MainScreenImage" />
+        android:layout_marginTop="50sp"
+        app:srcCompat="@drawable/mainimage" />
+
+
 </RelativeLayout>
