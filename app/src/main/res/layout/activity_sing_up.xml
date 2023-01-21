@@ -67,11 +67,7 @@
         android:layout_marginTop="596sp"
         android:layout_marginRight="40sp"
         android:background="@drawable/inset"
-        android:gravity="center"
-        android:paddingHorizontal="24dp"
-        android:paddingVertical="4dp"
         android:fontFamily="@font/inter_medium"
-        android:lineSpacingExtra="4sp"
         android:textColor="#ffffff"
         android:textAllCaps="false"
         android:textSize="20sp"
@@ -79,20 +75,34 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ButtonRecover"
-        android:layout_width="146dp"
+        android:layout_width="110dp"
         android:layout_height="20dp"
-        android:layout_marginLeft="186sp"
+        android:layout_marginLeft="206sp"
         android:layout_marginTop="672sp"
-        android:background="#ffffffff"
+        android:background="@android:color/transparent"
         android:fontFamily="@font/inter_medium"
-        android:lineSpacingExtra="16sp"
-        android:paddingHorizontal="24dp"
+        android:paddingHorizontal="4dp"
         android:text="Восстановить"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textColor="@color/Blue"
         android:textSize="14sp" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ButtonBack"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="10sp"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageView
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:layout_marginLeft="24sp"
+        android:layout_marginTop="18sp"
+        app:srcCompat="@drawable/buttonback" />
 
     <TextView
         android:layout_width="114sp"
@@ -101,11 +111,22 @@
         android:fontFamily="@font/inter_medium"
         android:textSize="14sp"
         android:layout_marginTop="672sp"
-        android:layout_marginLeft="68sp"
+        android:layout_marginLeft="88sp"
         android:textColor="#6C6B72"
         android:gravity="top"
         />
 
+    <TextView
+        android:layout_width="254sp"
+        android:layout_height="32dp"
+        android:text="Авторизация"
+        android:fontFamily="@font/inter_medium"
+        android:textSize="24sp"
+        android:layout_marginTop="14sp"
+        android:layout_marginLeft="68sp"
+        android:textColor="#0C0934"
+        android:gravity="center"
+        />
 
     <ImageView
         android:id="@+id/imageView2"

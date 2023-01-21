@@ -38,7 +38,7 @@
         android:textColor="#ffffff"
         android:textAllCaps="false"
         android:textSize="20sp"
-        android:text="Создать аккуант"/>
+        android:text="Регистрация"/>
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -51,7 +51,7 @@
         android:fontFamily="@font/inter_medium"
         android:textAllCaps="false"
         android:gravity="center"
-        android:background="#FFFFFFFF"
+        android:background="@android:color/transparent"
         android:textColor="@color/Blue"
         android:textSize="20sp"
         android:orientation="horizontal"
