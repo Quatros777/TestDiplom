@@ -1,13 +1,13 @@
 package com.example.testdiplom;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
+import android.app.AppComponentFactory;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class SingUpActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class BackButton extends AppCompatActivity {
     private Button ButtonBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class SingUpActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Обрабатываем нажатие кнопки "Назад"
                 onBackPressed();
-        }
-    });
+            }
+        });
     }
 }
