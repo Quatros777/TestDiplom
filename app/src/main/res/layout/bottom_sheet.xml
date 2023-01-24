@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edittextstyle"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/editprofile"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="56sp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="left"
+            android:paddingTop="12dp"
+            android:text="Редактировать профиль"
+            android:textAllCaps="false"
+            android:textColor="@color/PureDark"
+            android:textSize="17dp">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signout"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="56sp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="left"
+            android:paddingTop="12dp"
+            android:text="Выйти из аккуанта"
+            android:textAllCaps="false"
+            android:textColor="@color/PureDark"
+            android:textSize="17dp">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

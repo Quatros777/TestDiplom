@@ -28,10 +28,10 @@
         />
 
     <ImageView
-        android:layout_width="24sp"
-        android:layout_height="24sp"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
         android:layout_marginLeft="338sp"
-        android:layout_marginTop="18sp"
+        android:layout_marginTop="20sp"
         app:srcCompat="@drawable/morecircle" />
 
     <ImageView
@@ -82,7 +82,7 @@
         android:layout_width="163sp"
         android:layout_height="160sp"
         android:layout_marginLeft="24sp"
-        android:layout_marginTop="332sp"
+        android:layout_marginTop="322sp"
         android:background="@drawable/profilebutton"
         style="?android:attr/borderlessButtonStyle"
        />
@@ -91,7 +91,7 @@
         android:layout_width="64sp"
         android:layout_height="64sp"
         android:layout_marginLeft="36sp"
-        android:layout_marginTop="346sp"
+        android:layout_marginTop="336sp"
         app:srcCompat="@drawable/postbox" />
 
     <TextView
@@ -100,12 +100,168 @@
         android:text="Мои объявления"
         android:fontFamily="@font/inter_medium"
         android:textSize="24sp"
-        android:layout_marginTop="418sp"
+        android:layout_marginTop="408sp"
         android:layout_marginLeft="36sp"
         android:textColor="#0C0934"
         android:gravity="left"
         />
     <!--        Мои объявления - конец-->
 
+    <!--        Система проверки - начало-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/systemsec"
+        android:layout_width="163sp"
+        android:layout_height="160sp"
+        android:layout_marginLeft="24sp"
+        android:layout_marginTop="496sp"
+        android:background="@drawable/profilebutton"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <ImageView
+        android:layout_width="64sp"
+        android:layout_height="64sp"
+        android:layout_marginLeft="36sp"
+        android:layout_marginTop="510sp"
+        app:srcCompat="@drawable/camera" />
+
+    <TextView
+        android:layout_width="138sp"
+        android:layout_height="60sp"
+        android:text="Система проверки"
+        android:fontFamily="@font/inter_medium"
+        android:textSize="24sp"
+        android:layout_marginTop="584sp"
+        android:layout_marginLeft="36sp"
+        android:textColor="#0C0934"
+        android:gravity="left"
+        />
+    <!--        Система проверки - конец-->
+
+    <!--        Мои объекты - начало-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/myobjects"
+        android:layout_width="163sp"
+        android:layout_height="160sp"
+        android:layout_marginLeft="203sp"
+        android:layout_marginTop="322sp"
+        android:background="@drawable/profilebutton"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <ImageView
+        android:layout_width="64sp"
+        android:layout_height="64sp"
+        android:layout_marginLeft="219sp"
+        android:layout_marginTop="336sp"
+        app:srcCompat="@drawable/houses" />
+
+    <TextView
+        android:layout_width="138sp"
+        android:layout_height="60sp"
+        android:text="Мои объекты"
+        android:fontFamily="@font/inter_medium"
+        android:textSize="24sp"
+        android:layout_marginTop="408sp"
+        android:layout_marginLeft="219sp"
+        android:textColor="#0C0934"
+        android:gravity="left"
+        />
+    <!--        Мои объекты - конец-->
+
+    <!--        Мои контракты - начало-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mycontracts"
+        android:layout_width="163sp"
+        android:layout_height="160sp"
+        android:layout_marginLeft="203sp"
+        android:layout_marginTop="496sp"
+        android:background="@drawable/profilebutton"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <ImageView
+        android:layout_width="64sp"
+        android:layout_height="64sp"
+        android:layout_marginLeft="219sp"
+        android:layout_marginTop="510sp"
+        app:srcCompat="@drawable/bookmarkcontracts" />
+
+    <TextView
+        android:layout_width="138sp"
+        android:layout_height="60sp"
+        android:text="Мои контракты"
+        android:fontFamily="@font/inter_medium"
+        android:textSize="24sp"
+        android:layout_marginTop="584sp"
+        android:layout_marginLeft="219sp"
+        android:textColor="#0C0934"
+        android:gravity="left"
+        />
+    <!--        Мои контракты - конец-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:layout_marginTop="688sp"
+        android:background="#667085" />
+
+    <!--        Навигационная панель - начало-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/map"
+        android:layout_width="130sp"
+        android:layout_height="56sp"
+        android:layout_marginLeft="0sp"
+        android:layout_marginTop="690sp"
+        android:background="@android:color/transparent"
+        />
+    <ImageView
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:layout_marginLeft="53sp"
+        android:layout_marginTop="706sp"
+        app:srcCompat="@drawable/mapiconover" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/posts"
+        android:layout_width="130sp"
+        android:layout_height="56sp"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="690sp"
+        android:background="@android:color/transparent"
+        />
+    <ImageView
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:layout_marginLeft="182.75sp"
+        android:layout_marginTop="706sp"
+        app:srcCompat="@drawable/posticon" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/profile"
+        android:layout_width="130sp"
+        android:layout_height="56sp"
+        android:layout_marginLeft="260sp"
+        android:layout_marginTop="690sp"
+        android:background="@android:color/transparent"
+        />
+    <ImageView
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:layout_marginLeft="313sp"
+        android:layout_marginTop="698sp"
+        app:srcCompat="@drawable/profileiconactive" />
+
+    <TextView
+        android:layout_width="130sp"
+        android:layout_height="16sp"
+        android:text="Профиль"
+        android:fontFamily="@font/inter_medium"
+        android:textSize="12sp"
+        android:layout_marginTop="722sp"
+        android:layout_marginLeft="260sp"
+        android:textColor="#4548ED"
+        android:gravity="center"
+        />
+    <!--        Навигационная панель - конец-->
 
 </RelativeLayout>
