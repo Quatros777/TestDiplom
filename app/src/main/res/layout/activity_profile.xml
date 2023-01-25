@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     tools:context=".profile">
 
     <TextView
@@ -61,7 +62,7 @@
         android:layout_marginTop="268sp"
         android:fontFamily="@font/inter"
         android:gravity="center"
-        android:text="+7 920 503 45-54"
+        android:text="+7 900 591 00-51"
         android:textColor="#667085"
         android:textSize="16sp" />
 
