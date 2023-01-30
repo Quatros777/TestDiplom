@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheetContainerPhone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edittextstyle"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Номер телефона"
+            android:textSize="15dp"
+            android:fontFamily="@font/inter">
+        </TextView>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="8dp"
+         android:text="+7 900 591 00-51"
+         android:textSize="17dp"
+         android:textColor="@color/PureDark"
+         android:fontFamily="@font/inter_medium">
+         </TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:text="Позвонить"
+            android:fontFamily="@font/inter_medium"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/Blue">
+        </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+
+</LinearLayout>

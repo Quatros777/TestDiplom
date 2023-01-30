@@ -8,16 +8,15 @@
     tools:context=".activity_posts">
 
     <TextView
-        android:layout_width="172sp"
+        android:layout_width="240sp"
         android:layout_height="32dp"
-        android:text="Объявления"
-        android:fontFamily="@font/inter_medium"
-        android:textSize="24sp"
-        android:layout_marginTop="14sp"
         android:layout_marginLeft="68sp"
-        android:textColor="#0C0934"
+        android:layout_marginTop="14sp"
+        android:fontFamily="@font/inter_medium"
         android:gravity="center"
-        />
+        android:text="Объявления"
+        android:textColor="#0C0934"
+        android:textSize="24sp" />
 
     <View
         android:layout_width="match_parent"
@@ -82,6 +81,8 @@
         android:layout_marginLeft="313sp"
         android:layout_marginTop="706sp"
         app:srcCompat="@drawable/profileicon" />
+
+
     <!--        Навигационная панель - конец-->
 
 </RelativeLayout>
