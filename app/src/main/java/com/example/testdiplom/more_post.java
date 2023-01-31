@@ -15,6 +15,7 @@ public class more_post extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_more_post);
         Button showPhone = findViewById(R.id.showPhone);
+        Button exitPost = findViewById(R.id.exitPost);
         showPhone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,6 +29,13 @@ public class more_post extends AppCompatActivity {
                         );
                 BottomSheetPhone.setContentView(BottomSheetView2);
                 BottomSheetPhone.show();
+            }
+        });
+        exitPost.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Открывает прошлую активити
+                onBackPressed();
             }
         });
     }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/bottomSheetContainerPhone"
+    android:id="@+id/bottomSheetContainerDeletePost"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/edittextstyle"
@@ -18,37 +18,28 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Номер телефона"
-            android:textSize="15dp"
-            android:fontFamily="@font/inter">
+            android:text="Вы уверены, что хотите удалить объявление?"
+            android:textSize="17dp"
+            android:textColor="#667085"
+            android:fontFamily="@font/inter_medium">
         </TextView>
 
-     <TextView
-         android:id="@+id/phoneInBottom"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="8dp"
-         android:text="+7 900 591 00-51"
-         android:textSize="17dp"
-         android:textColor="@color/PureDark"
-         android:fontFamily="@font/inter_medium">
-         </TextView>
-
         <Button
-            android:id="@+id/ButtonCall"
+            android:id="@+id/ButtonDeletePost"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp"
             android:background="@android:color/transparent"
-            android:text="Позвонить"
+            android:text="Удалить объявление"
             android:fontFamily="@font/inter_medium"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingTop="8dp"
             android:textAllCaps="false"
-            android:gravity="center"
-            android:textSize="20sp"
-            android:textColor="@color/Blue">
+            android:gravity="left"
+            android:textSize="18sp"
+            android:textColor="#D92D20">
         </Button>
 
-        </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>
