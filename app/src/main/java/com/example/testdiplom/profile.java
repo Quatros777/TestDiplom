@@ -19,6 +19,8 @@ public class profile extends AppCompatActivity {
         Button myObjects = findViewById(R.id.myobjects);
         Button buttonMore = findViewById(R.id.moreinfo);
         Button postPersonal = findViewById(R.id.mypost);
+        Button postsBottom = findViewById(R.id.posts);
+        Button mapBottom = findViewById(R.id.map);
         buttonMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,6 +48,11 @@ public class profile extends AppCompatActivity {
                 openMyPostEditActivity();
             }
         });
+        postsBottom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {openAllPostsActivity();
+                }
+        });
     }
     public void openPostPersonalActivity() {
         Intent intent = new Intent(this, more_post.class);
@@ -53,6 +60,10 @@ public class profile extends AppCompatActivity {
     }
     public void openMyPostEditActivity() {
         Intent intent = new Intent(this, more_my_post.class);
+        startActivity(intent);
+    }
+    public void openAllPostsActivity() {
+        Intent intent = new Intent(this, activity_posts.class);
         startActivity(intent);
     }
 }

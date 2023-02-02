@@ -11,8 +11,6 @@ import android.widget.EditText;
 import java.sql.CallableStatement;
 
 public class SingUpActivity extends AppCompatActivity {
-    //Конект к бд
-    private static connectionDB con=new connectionDB();
 
     //Назначение кнопок
     Button ButtonVoitiFromAut;
