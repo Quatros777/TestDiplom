@@ -1,4 +1,4 @@
-package com.example.testdiplom;
+package com.example.testdiplom.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.testdiplom.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         });
         }
     public void openSingUpActivity2() {
-        Intent intent = new Intent(this, activity_create_acc.class);
+        Intent intent = new Intent(this, RegistrationActivity.class);
         startActivity(intent);
     }
     public void openSingUpActivity() {

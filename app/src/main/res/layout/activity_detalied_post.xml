@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -41,12 +42,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="24sp"
         android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp">
+        android:layout_marginEnd="24dp"
+        >
 
         <TextView
-            android:id="@+id/price"
+            android:id="@+id/detail_post_price_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/inter_medium"
@@ -56,6 +58,7 @@
         </TextView>
 
         <TextView
+            android:id="@+id/detail_post_address_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -66,40 +69,41 @@
             ></TextView>
 
         <TextView
+            android:id="@+id/detail_post_room_parameters"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="3 комнаты 68 м2"
             android:fontFamily="@font/inter"
-            android:textSize="16sp"
-            android:textColor="#667085">
-        </TextView>
+            android:text="3 комнаты 68 м2"
+            android:textColor="#667085"
+            android:textSize="16sp"></TextView>
 
         <View
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
             android:layout_height="0.75dp"
-            android:alpha="0.25"
             android:background="#667085" />
 
         <TextView
+            android:id="@+id/detail_post_flat_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Сдается 3-х комнатная квартира, от собственника, с хорошим ремонтом, на долгий срок. Отличная планировка. Видовой 18 этаж."
             android:fontFamily="@font/inter"
-            android:textSize="16sp"
-            android:textColor="#667085">
-        </TextView>
+            android:text="Сдается 3-х комнатная квартира, от собственника, с хорошим ремонтом, на долгий срок. Отличная планировка. Видовой 18 этаж."
+            android:textColor="#667085"
+            android:textSize="16sp"></TextView>
 
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/showPhone"
+        android:id="@+id/detail_post_show_phone"
         android:layout_width="342dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/inter_medium"
         android:textAllCaps="false"
         android:background="@android:color/transparent"

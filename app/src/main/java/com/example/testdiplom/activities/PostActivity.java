@@ -1,4 +1,4 @@
-package com.example.testdiplom;
+package com.example.testdiplom.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class activity_posts extends AppCompatActivity {
+import com.example.testdiplom.R;
+
+public class PostActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

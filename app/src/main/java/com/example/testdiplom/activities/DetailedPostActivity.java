@@ -7,20 +7,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+
+import com.example.testdiplom.R;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 public class more_post extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_more_post);
-        Button showPhone = findViewById(R.id.showPhone);
-        Button exitPost = findViewById(R.id.exitPost);
+        setContentView(R.layout.activity_detalied_post);
+        Button showPhone = findViewById(R.id.detail_post_show_phone);
         showPhone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 BottomSheetDialog BottomSheetPhone = new BottomSheetDialog(
-                        more_post.this, R.style.BottomSheetDialogTheme
+                        DetailedPostActivity.this, R.style.BottomSheetDialogTheme
                 );
                 View BottomSheetView2 = LayoutInflater.from(getApplicationContext())
                         .inflate(

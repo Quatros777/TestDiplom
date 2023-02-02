@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    tools:context=".profile">
+    tools:context=".activities.ProfileActivity">
 
     <TextView
         android:layout_width="236sp"
@@ -36,6 +36,7 @@
         app:srcCompat="@drawable/morecircle" />
 
     <ImageView
+        android:id="@+id/profile_avatar_image"
         android:layout_width="128sp"
         android:layout_height="128dp"
         android:layout_marginLeft="131sp"
@@ -79,7 +80,7 @@
 
     <!--        Мои объявления - начало-->
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/mypost"
+        android:id="@+id/profile_my_posts_button"
         android:layout_width="163sp"
         android:layout_height="160sp"
         android:layout_marginLeft="24sp"
@@ -110,7 +111,7 @@
 
     <!--        Система проверки - начало-->
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/systemsec"
+        android:id="@+id/profile_systemsec_button"
         android:layout_width="163sp"
         android:layout_height="160sp"
         android:layout_marginLeft="24sp"
@@ -141,7 +142,7 @@
 
     <!--        Мои объекты - начало-->
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/myobjects"
+        android:id="@+id/profile_myobjects_button"
         android:layout_width="163sp"
         android:layout_height="160sp"
         android:layout_marginLeft="203sp"
@@ -172,7 +173,7 @@
 
     <!--        Мои контракты - начало-->
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/mycontracts"
+        android:id="@+id/profile_mycontracts_button"
         android:layout_width="163sp"
         android:layout_height="160sp"
         android:layout_marginLeft="203sp"
@@ -208,7 +209,7 @@
 
     <!--        Навигационная панель - начало-->
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/map"
+        android:id="@+id/posts_map_button"
         android:layout_width="130sp"
         android:layout_height="56sp"
         android:layout_marginLeft="0sp"
@@ -238,7 +239,7 @@
         app:srcCompat="@drawable/posticon" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/profile"
+        android:id="@+id/posts_profile_button"
         android:layout_width="130sp"
         android:layout_height="56sp"
         android:layout_marginLeft="260sp"

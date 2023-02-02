@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_gravity="center"
-    android:id="@+id/allPosts"
-    tools:context=".activity_posts">
+    tools:context=".activities.PostActivity">
 
     <TextView
+        android:id="@+id/posts_main_title"
         android:layout_width="240sp"
         android:layout_height="32dp"
         android:layout_marginLeft="68sp"
@@ -20,7 +19,6 @@
         android:textColor="#0C0934"
         android:textSize="24sp" />
 
-
     <View
         android:layout_width="match_parent"
         android:layout_height="0.75dp"
@@ -29,14 +27,16 @@
 
     <!--        Навигационная панель - начало-->
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@id/map"
+        android:id="@id/posts_map_button"
         android:layout_width="130sp"
         android:layout_height="56sp"
         android:layout_marginLeft="0sp"
         android:layout_marginTop="690sp"
         android:background="@android:color/transparent"
         />
+
     <ImageView
+        android:id="@+id/posts_map_pic"
         android:layout_width="24sp"
         android:layout_height="24sp"
         android:layout_marginLeft="53sp"
@@ -51,7 +51,9 @@
         android:layout_marginTop="690sp"
         android:background="@android:color/transparent"
         />
+
     <ImageView
+        android:id="@+id/posts_post_pic"
         android:layout_width="24sp"
         android:layout_height="24sp"
         android:layout_marginLeft="182.75sp"
@@ -59,6 +61,7 @@
         app:srcCompat="@drawable/posticonactivity" />
 
     <TextView
+        android:id="@+id/posts_post_title"
         android:layout_width="130sp"
         android:layout_height="16sp"
         android:text="Объявления"
@@ -66,25 +69,31 @@
         android:textSize="12sp"
         android:layout_marginTop="722sp"
         android:layout_marginLeft="130sp"
-        android:textColor="#4548ED"
+        android:layout_marginTop="722sp"
+        android:fontFamily="@font/inter_medium"
         android:gravity="center"
-        />
+        android:text="Объявления"
+        android:textColor="#4548ED"
+        android:textSize="12sp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@id/profile"
+        android:id="@id/posts_profile_button"
         android:layout_width="130sp"
         android:layout_height="56sp"
         android:layout_marginLeft="260sp"
         android:layout_marginTop="690sp"
         android:background="@android:color/transparent"
         />
+
     <ImageView
+        android:id="@+id/posts_profile_pic"
         android:layout_width="24sp"
         android:layout_height="24sp"
         android:layout_marginLeft="313sp"
         android:layout_marginTop="706sp"
         app:srcCompat="@drawable/profileicon" />
 
+
     <!--        Навигационная панель - конец-->
 
-    </RelativeLayout>
+</RelativeLayout>

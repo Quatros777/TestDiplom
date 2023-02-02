@@ -1,4 +1,4 @@
-package com.example.testdiplom;
+package com.example.testdiplom.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,16 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class activity_create_acc extends AppCompatActivity {
+import com.example.testdiplom.R;
+
+public class RegistrationActivity extends AppCompatActivity {
     private Button ButtonBack;
     private Button ButtonVoitiFromAut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create_acc);
+        setContentView(R.layout.activity_registration);
         ButtonBack = (Button) findViewById(R.id.ButtonBack);
-        ButtonVoitiFromAut = (Button) findViewById(R.id.ButtonVoitiFromAut);
+        ButtonVoitiFromAut = (Button) findViewById(R.id.signUpButton);
         ButtonBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -32,7 +34,7 @@ public class activity_create_acc extends AppCompatActivity {
         });
     }
     public void openProfileActivity() {
-        Intent intent = new Intent(this, profile.class);
+        Intent intent = new Intent(this, ProfileActivity.class);
         startActivity(intent);
     }
 }
